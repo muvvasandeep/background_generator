@@ -7,7 +7,7 @@ color1.addEventListener("input", updateBackground);
 color2.addEventListener("input",updateBackground);
 
 function updateBackground(){
-	body.style.background = "linear-gradient(to right,"+color1.value+","+color2.value+")";
+	body.style.background = "linear-gradient(to right,'+color1.value+','+color2.value+')";
 	updateHexCode();
 }
 
