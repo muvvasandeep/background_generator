@@ -9,17 +9,20 @@ h1{
 	letter-spacing: 50px;
 	font-size: 100px;
 	text-transform: uppercase;
+	background : green ;
 }
 
 h2{
 	text-align: center;
 	font-family: 'Bree Serif', serif;
 	color: white;
+	background : blue;
+	
 }
 
 input[type="color"] {
 	-webkit-appearance: none;
-	border: none;
+	border: 2px;
 	width: 100px;
 	height: 40px;
 }
@@ -27,7 +30,7 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 	padding: 0;
 }
 input[type="color"]::-webkit-color-swatch {
-	border: none;
+	border: 2px;
 }
 
 /* Button Style */
